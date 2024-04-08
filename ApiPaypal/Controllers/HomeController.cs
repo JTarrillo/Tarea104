@@ -85,8 +85,8 @@ namespace WebApplicationpaypal_1.Controllers
             using (var client = new HttpClient()) {
 
                 //INGRESA TUS CREDENCIALES AQUI -> CLIENT ID - SECRET
-                var userName = "AXAfJ0vgxisAiBt0jDATa_ZSc0X-EiL9GFIbtrdfsv4wex6iM8G1VcWlMwIG1DsFKacE4aD2t1SiY8w7";
-                var passwd = "EOxhMgmZFAgfy6r7XmIRocfCz4MFZ6TPe8XPP03YGd9DK2RlvT7D8hlBpHAV72jZAmWRio9XSQG3Oqk0";
+                var userName = "";
+                var passwd = "";
 
                 client.BaseAddress = new Uri("https://api-m.sandbox.paypal.com");
 
